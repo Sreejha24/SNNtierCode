@@ -1,0 +1,258 @@
+{
+  "format": 1,
+  "restore": {
+    "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj": {}
+  },
+  "projects": {
+    "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj",
+        "projectName": "NewCore3xMVC",
+        "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj",
+        "packagesPath": "C:\\Users\\knagineni\\.nuget\\packages\\",
+        "outputPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\knagineni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj": {
+                "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Alachisoft.NCache.OpenSource.SDK": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.EventLog": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.6, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj",
+        "projectName": "NewCore3xTestxUnit",
+        "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj",
+        "packagesPath": "C:\\Users\\knagineni\\.nuget\\packages\\",
+        "outputPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xTestxUnit\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\knagineni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj": {
+                "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj",
+        "projectName": "RepositoryPattern",
+        "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj",
+        "packagesPath": "C:\\Users\\knagineni\\.nuget\\packages\\",
+        "outputPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\knagineni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

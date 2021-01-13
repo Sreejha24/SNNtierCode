@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewData["Title"] = "Tutorials";
+}
+
+<h1>Tutorials</h1>
+<div class="row">
+    <div class="col-md-6">
+        <ol>
+            <li><a asp-action="CacheIndex" asp-controller="People" target="_blank">Cache Index</a></li>
+            <li><a asp-action="ResponseCaching" asp-controller="People" target="_blank">Response Caching</a></li>
+            <li><a asp-action="RedisCache" asp-controller="People" target="_blank">Redis Caching</a></li>
+            <li><a asp-action="Index" asp-controller="RepositoryTests" target="_blank">Repository Pattern</a></li>
+        </ol>
+        <h4>Routing</h4>
+        <ol>
+            <li><a href="/Hello" target="_blank">Content routing</a></li>
+            <li><a href="/Default/2/sheo" target="_blank">Constraint routing</a></li>
+            <li><a href="/Privacy" target="_blank">Privacy</a></li>
+        </ol>
+
+        <h4>Middleware</h4>
+        <ol>
+            <li><a href="/Home/Middleware" target="_blank">Middleware</a></li>
+        </ol>
+
+        <h4>Dependency Injection</h4>
+        <ol>
+            <li><a href="/DI/Index" target="_blank">Inject Custom Service</a></li>
+        </ol>
+
+        <h4>Paging</h4>
+        <ol>
+            <li><a href="/Employees/Paging" target="_blank">Pagination</a></li>
+            <li><a href="/Employees/Search" target="_blank">Search</a></li>
+        </ol>
+    </div>
+    <div class="col-md-6">
+        <h4>Raw SQL</h4>
+        <ol>
+            <li><a href="/People/RawQuery/1" target="_blank">Raw Query</a></li>
+            <li><a href="/People/RawQueryComplex" target="_blank">Raw Complex Query</a></li>
+        </ol>
+        <h4>Partial Views</h4>
+        <ol>
+            <li><a href="/Default/PartialViewTest" target="_blank">Partial View Test</a></li>
+        </ol>
+        <h4>Components</h4>
+        <ol>
+            <li><a href="/Default/ComponentTest" target="_blank">Component Test</a></li>
+        </ol>
+        <h4>Error Handling</h4>
+        <ol>
+            <li><a href="/ErrorHandling">Error Handling</a></li>
+        </ol>
+        <h4>Logging</h4>
+        <ol>
+            <li><a href="/Logging">Logging</a></li>
+        </ol>        <h4>Tag Helper / Functions</h4>
+        <ol>
+            <li><a href="/Home/TagHelper">TagHelper</a></li>
+        </ol>
+
+        <h4>Result Types</h4>
+        <ul>
+            <li><a href="/ResultTypes">Result Types</a></li>
+        </ul>
+
+        <h4>Cookie / Session</h4>
+        <ul>
+            <li><a href="/SessionDemo">Cookie / Session</a></li>
+        </ul>
+        <h4>ViewBag / ViewData</h4>
+        <ul>
+            <li><a href="/ViewBagViewData">View Bag, View Data</a></li>
+        </ul>
+        <h4>Filter Demo</h4>
+        <ul>
+            <li><a href="/FiltersDemo">Filters Demo</a></li>
+        </ul>
+        <h4>Async/Await</h4>
+        <ul>
+            <li>
+                <a href="/AsynAwaitDemo">Async / Await</a>
+            </li>
+        </ul>
+    </div>
+</div>

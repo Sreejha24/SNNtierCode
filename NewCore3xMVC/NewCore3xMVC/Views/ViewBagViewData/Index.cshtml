@@ -1,0 +1,49 @@
+﻿@model IEnumerable<RepositoryPattern.Models.People>
+@{
+    ViewData["Title"] = "ViewBag / View Data";
+
+    var employees = (IEnumerable<RepositoryPattern.Models.Employee>)ViewBag.Employees;
+
+    var companyName = ViewBag.CompanyName.ToString();
+
+}
+<h1>@ViewData["Title"]</h1>
+<h4>@companyName, @ViewData["City"]</h4>
+<table class="table table-striped">
+    <tr>
+        <td>ID</td>
+        <td>Full Name</td>
+        <td>Age</td>
+        <td>DOJ</td>
+    </tr>
+    @foreach (var item in employees)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.FullName</td>
+            <td>@item.Age</td>
+            <td>@item.DOJ</td>
+        </tr>
+    }
+</table>
+
+<hr />
+<table class="table table-striped">
+    <tr>
+        <td>
+            ID
+        </td>
+        <td>First Name</td>
+        <td>Age</td>
+        <td>Active</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AutoId</td>
+            <td>@item.FirstName</td>
+            <td>@item.Age</td>
+            <td>@item.Active</td>
+        </tr>
+    }
+</table>

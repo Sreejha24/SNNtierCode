@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewData["Title"] = "TagHelper";
+}
+
+<h1>TagHelper</h1>
+
+
+<p class="card card-body bg-secondary">
+    Attribute that starts with asp- is part of tag helper methods. Its available with almost all html tags.
+</p>
+@("The multiplication is :" + new NewCore3xMVC.Utility.Utility().Multiply(2,3,5,9,8))
+<hr />
+@("The sum is " + NewCore3xMVC.Utility.Utility.Sum(2, 3, 4, 5))
+<hr />
+@{ PrintTable(10); }
+<hr />
+The sum of 2, 4 is <strong>@Sum(2, 4)</strong>.
+@{
+    void PrintTable(int number)
+    {
+        <ul>
+            @for (var i = 1; i < 11; i++)
+            {
+                <li>@(i*number)</li>
+            }
+        </ul>
+    }
+}
+
+@functions
+{
+    public int Sum(int a, int b)
+    {
+        return a + b;
+    }
+}
