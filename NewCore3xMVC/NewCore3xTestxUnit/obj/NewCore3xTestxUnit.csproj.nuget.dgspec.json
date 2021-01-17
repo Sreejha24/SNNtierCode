@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj": {}
+    "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj": {}
   },
   "projects": {
-    "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj": {
+    "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj",
+        "projectUniqueName": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj",
         "projectName": "NewCore3xMVC",
-        "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj",
-        "packagesPath": "C:\\Users\\knagineni\\.nuget\\packages\\",
-        "outputPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\obj\\",
+        "projectPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj",
+        "packagesPath": "C:\\Users\\chait\\.nuget\\packages\\",
+        "outputPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xMVC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\knagineni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\chait\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,9 +30,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj": {
-                "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj"
+              "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj": {
+                "projectPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj"
               }
             }
           }
@@ -41,6 +46,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Alachisoft.NCache.OpenSource.SDK": {
               "target": "Package",
@@ -115,22 +121,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj": {
+    "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj",
+        "projectUniqueName": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj",
         "projectName": "NewCore3xTestxUnit",
-        "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj",
-        "packagesPath": "C:\\Users\\knagineni\\.nuget\\packages\\",
-        "outputPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xTestxUnit\\obj\\",
+        "projectPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xTestxUnit\\NewCore3xTestxUnit.csproj",
+        "packagesPath": "C:\\Users\\chait\\.nuget\\packages\\",
+        "outputPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xTestxUnit\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\knagineni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\chait\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -141,9 +151,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj": {
-                "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj"
+              "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj": {
+                "projectPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCore3xMVC\\NewCore3xMVC.csproj"
               }
             }
           }
@@ -156,6 +167,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -192,22 +204,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj": {
+    "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj",
+        "projectUniqueName": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj",
         "projectName": "RepositoryPattern",
-        "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj",
-        "packagesPath": "C:\\Users\\knagineni\\.nuget\\packages\\",
-        "outputPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\obj\\",
+        "projectPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj",
+        "packagesPath": "C:\\Users\\chait\\.nuget\\packages\\",
+        "outputPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\RepositoryPattern\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\knagineni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\chait\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -218,6 +234,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -229,6 +246,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -250,7 +268,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

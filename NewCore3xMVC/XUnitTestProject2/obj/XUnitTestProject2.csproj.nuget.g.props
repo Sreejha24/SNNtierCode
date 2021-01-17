@@ -5,9 +5,9 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\knagineni\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\chait\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.7.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
@@ -23,9 +23,9 @@
     <Import Project="$(NuGetPackageRoot)xunit.core\2.4.0\build\xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.4.0\build\xunit.core.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\knagineni\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
-    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\knagineni\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4</PkgMicrosoft_CodeAnalysis_Analyzers>
-    <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\knagineni\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.10.8</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
-    <PkgAlachisoft_NCache_OpenSource_SDK Condition=" '$(PkgAlachisoft_NCache_OpenSource_SDK)' == '' ">C:\Users\knagineni\.nuget\packages\alachisoft.ncache.opensource.sdk\5.0.3</PkgAlachisoft_NCache_OpenSource_SDK>
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\chait\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\chait\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\chait\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.10.8</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
+    <PkgAlachisoft_NCache_OpenSource_SDK Condition=" '$(PkgAlachisoft_NCache_OpenSource_SDK)' == '' ">C:\Users\chait\.nuget\packages\alachisoft.ncache.opensource.sdk\5.0.3</PkgAlachisoft_NCache_OpenSource_SDK>
   </PropertyGroup>
 </Project>

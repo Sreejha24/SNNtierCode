@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCoreClassLibrary\\NewCoreClassLibrary.csproj": {}
+    "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCoreClassLibrary\\NewCoreClassLibrary.csproj": {}
   },
   "projects": {
-    "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCoreClassLibrary\\NewCoreClassLibrary.csproj": {
+    "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCoreClassLibrary\\NewCoreClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCoreClassLibrary\\NewCoreClassLibrary.csproj",
+        "projectUniqueName": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCoreClassLibrary\\NewCoreClassLibrary.csproj",
         "projectName": "NewCoreClassLibrary",
-        "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCoreClassLibrary\\NewCoreClassLibrary.csproj",
-        "packagesPath": "C:\\Users\\knagineni\\.nuget\\packages\\",
-        "outputPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\NewCoreClassLibrary\\obj\\",
+        "projectPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCoreClassLibrary\\NewCoreClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\chait\\.nuget\\packages\\",
+        "outputPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\NewCoreClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\knagineni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\chait\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

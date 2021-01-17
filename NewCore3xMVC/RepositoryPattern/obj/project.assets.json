@@ -637,20 +637,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\knagineni\\.nuget\\packages\\": {}
+    "C:\\Users\\chait\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj",
+      "projectUniqueName": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj",
       "projectName": "RepositoryPattern",
-      "projectPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj",
-      "packagesPath": "C:\\Users\\knagineni\\.nuget\\packages\\",
-      "outputPath": "\\\\192.168.50.220\\Freshers2020-Trainees\\NewCore3xMVC\\RepositoryPattern\\obj\\",
+      "projectPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\RepositoryPattern\\RepositoryPattern.csproj",
+      "packagesPath": "C:\\Users\\chait\\.nuget\\packages\\",
+      "outputPath": "D:\\ShopCartCode\\Testing\\NewCore3xMVC\\RepositoryPattern\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\knagineni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\chait\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -661,6 +666,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -672,6 +678,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -693,7 +700,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
